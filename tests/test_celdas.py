@@ -8,3 +8,4 @@ def test_contar_celdas_ocupadas():
             contador = contador + celda
 
     assert contador > 14
+    assert contador < 16
