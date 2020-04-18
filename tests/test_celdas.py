@@ -1,6 +1,7 @@
 from src.bingo import carton
 
-def test_contar_celdas_ocupadas():
+
+def test_prac1_eje1y2():
     mi_carton = carton()
     contador = 0
     for fila in mi_carton:
@@ -9,3 +10,9 @@ def test_contar_celdas_ocupadas():
 
     assert contador > 14
     assert contador < 16
+
+def test_prac1_eje3():
+    mi_carton = carton()
+    contador = 0
+    for contador in range(9):
+        assert (mi_carton[0][contador] + mi_carton[1][contador] + mi_carton[2][contador]) >= 1
