@@ -1,11 +1,8 @@
 from src.bingo import carton
 
 
-<<<<<<< HEAD
 #comentario auxiliar 2 para probar el merge
-=======
-#comentario auxiliar 1 para probar el merge
->>>>>>> 37e6ae9d976c7061e9be24414d5c5abd4189d147
+
 
 #Ejercicio 1 y 2 de la tarea 1
 def test_prac1_eje1y2():
