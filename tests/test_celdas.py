@@ -1,6 +1,6 @@
 from src.bingo import carton
 
-
+#Ejercicio 1 y 2 de la tarea 1
 def test_prac1_eje1y2():
     mi_carton = carton()
     contador = 0
@@ -11,6 +11,7 @@ def test_prac1_eje1y2():
     assert contador > 14
     assert contador < 16
 
+#Ejercicio 3 de la tarea 1
 def test_prac1_eje3():
     mi_carton = carton()
     contador = 0
