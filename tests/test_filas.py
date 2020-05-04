@@ -1,5 +1,6 @@
 from src.bingo import carton
 
+#prueba 2
 #Ejercicio de la practica 2
 def test_prac2_eje1():
     mi_carton = carton()
