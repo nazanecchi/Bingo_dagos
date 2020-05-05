@@ -1,13 +1,5 @@
 from src.bingo import carton
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#prueba
-=======
-#prueba 2
->>>>>>> b3dc636877927d6159a8746a5507b12661919902
-=======
->>>>>>> 5be7e060612e430503b300e46937b5bfce667540
 #Ejercicio de la practica 2
 def test_prac2_eje1():
     mi_carton = carton()
