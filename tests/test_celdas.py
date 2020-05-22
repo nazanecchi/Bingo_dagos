@@ -7,13 +7,13 @@ from src.bingo import carton
 #Ejercicio 1 y 2 de la tarea 1
 def test_prac1_eje1y2():
     mi_carton = carton()
-    contador = 0
+    contador = 27
     for fila in mi_carton:
         for celda in fila:
-            contador = contador + celda
+            if celda==0:
+                contador=contador-1
 
-    assert contador > 14
-    assert contador < 16
+    assert contador == 15
 
 #Ejercicio 3 de la tarea 1
 def test_prac1_eje3():
