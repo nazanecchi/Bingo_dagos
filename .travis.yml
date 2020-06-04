@@ -1,4 +1,4 @@
-lenguage: python
-python: 3
+language: python
 
-script: pytest
+script:
+  - pytest
