@@ -1,6 +1,6 @@
 from src.bingo import carton
 
-def test_no_existen_2_celdas_vacias_consecutivas():
+def test_no_existen_2_celdas_ocupadas_consecutivas():
     mi_carton = carton()
     contador = 0
     contador2 = 0
