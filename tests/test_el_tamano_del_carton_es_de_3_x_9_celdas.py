@@ -1,8 +1,5 @@
-from src.bingo import carton
+from src import bingo
 
-def test_no_columnas_con_las_3_celdas_llenas():
-    mi_carton = carton()
-    assert len(mi_carton) == 3
-    assert len(mi_carton[0]) == 9
-    assert len(mi_carton[1]) == 9
-    assert len(mi_carton[2]) == 9
+mi_carton = bingo.carton
+def test_tamano_del_carton_3_x_9():
+    assert bingo.tamano_del_carton_3_x_9(mi_carton)
