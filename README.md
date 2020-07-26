@@ -2,6 +2,8 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/rorropirorro/Bingo_dagos/badge.svg)](https://coveralls.io/github/rorropirorro/Bingo_dagos)
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rorropirorro/Bingo_dagos/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rorropirorro/Bingo_dagos/?branch=master)
+
 # BINGO:
 Proyecto de Bingo que genera cartones validos a partir de ciertas condiciones
 Programa hecho por Rodrigo Marí, 6to año del Intituto Politecnico Superior
