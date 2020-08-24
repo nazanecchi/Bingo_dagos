@@ -28,7 +28,7 @@ Los cartones que se generen tendran las siguientes condiciones:
 - En una fila no existen más de dos celdas vacías consecutivas.
 
 Para generar un carton escribir en consola:
-
+dddd
 Bingo_dagos/src/bingo.py
 
 Un ejemplo de carton válido podría ser el siguiente:
